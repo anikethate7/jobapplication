@@ -1,0 +1,10 @@
+package com.jobapplication.review.external;
+
+import lombok.Data;
+
+@Data
+public class CompanyResponse {
+    private Long id;
+    private String name;
+    private String description;
+}
